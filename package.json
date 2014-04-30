@@ -1,0 +1,23 @@
+{
+  "name": "metalsmith-untemplatized",
+  "version": "0.1.0",
+  "description": "A Metalsmith plugin to extract untemplatized file contents.",
+  "main": "lib/index.js",
+  "repository": "git://github.com/gillesfabio/metalsmith-untemplatized.git",
+  "keywords": [
+    "metalsmith",
+    "markdown"
+  ],
+  "author": "Gilles Fabio <gilles@gillesfabio.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/gillesfabio/metalsmith-untemplatized",
+  "dependencies": {
+    "debug": "^0.8.1",
+    "marked": "^0.3.2"
+  },
+  "devDependencies": {
+    "metalsmith": "^0.7.0",
+    "mocha": "^1.x",
+    "swig": "^1.3.2"
+  }
+}
