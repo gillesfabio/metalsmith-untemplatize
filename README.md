@@ -1,11 +1,11 @@
-# metalsmith-untemplatized
+# metalsmith-untemplatize
 
 A [Metalsmith](http://metalsmith.io) plugin to extract untemplatized file contents.
 
 ## Installation
 
 ```
-$ npm install metalsmith-untemplatized
+$ npm install metalsmith-untemplatize
 ```
 
 ## CLI Usage
@@ -13,7 +13,7 @@ $ npm install metalsmith-untemplatized
 ```json
 {
   "plugins": {
-    "metalsmith-untemplatized": true
+    "metalsmith-untemplatize": true
   }
 }
 ```
@@ -22,8 +22,8 @@ $ npm install metalsmith-untemplatized
 
 ```js
 
-var untemplatized = require('metalsmith-untemplatized');
-metalmisth.use(untemplatized());
+var untemplatized = require('metalsmith-untemplatize');
+metalmisth.use(untemplatize());
 ```
 
 ## License
