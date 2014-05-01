@@ -1,0 +1,10 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  {% for post in posts %}
+  <entry>
+    <title>{{ post.title }}</title>
+    <content type="html">
+      {{ post.untemplatized.toString()|safe }}
+    </content>
+  </entry>
+  {% endfor %}
+</feed>

@@ -1,0 +1,19 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+  <entry>
+    <title>Post 2</title>
+    <content type="html">
+      <p>Post 2 content.</p>
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Post 1</title>
+    <content type="html">
+      <p>Post 1 content.</p>
+
+    </content>
+  </entry>
+  
+</feed>
